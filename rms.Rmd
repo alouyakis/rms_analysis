@@ -2,7 +2,9 @@
 title: "Rms_analysis"
 author: "Artemis Louyakis and Matthew Fullmer"
 date: "11/28/2018"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 ##### Packages used 
