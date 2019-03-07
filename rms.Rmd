@@ -2,9 +2,7 @@
 title: "Rms_analysis"
 author: "Artemis Louyakis and Matthew Fullmer"
 date: "11/28/2018"
-output:
-  html_document:
-    df_print: paged
+output: html_notebook
 ---
 
 ##### Packages used 
@@ -119,6 +117,6 @@ bonf_corr_p[] <- vapply(bonf_corr_p, y, numeric(1))
 bonfer_matrix <- ifelse(bonf_corr_p<1, spear_r, 0)
 
 #### output plot
-#pdf("out_files/corrplot.pdf", height = 6, width = 6)
+pdf("out_files/corrplot.pdf", height = 6, width = 6)
 corrplot(bonfer_matrix, type = "lower", order = "FPC", tl.cex = 0.5, tl.srt = 30, tl.col = "black")
 ```
