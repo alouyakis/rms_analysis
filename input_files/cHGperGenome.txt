@@ -47,4 +47,4 @@ cHG	alpha_hg	Name	No. of Genomes
 46	AL	MBFI	3
 47	AV	Uncharacterized	3
 48	Z	Adenine_DNA_methylase	46
-49	mrr	mrr_family_endonuclease	13
+49	mrr	mrr_family_endonuclease	45
