@@ -1,0 +1,12 @@
+USearch notes
+
+
+#sort in decreasing sequence size
+usearch8.0.1623_i86linux32 -sortbylength <input fasta> -fastaout <output fasta> -notrunclengths
+
+#determine centroids and print to single output
+usearch8.0.1623_i86linux32 -cluster_fast <size sorted input fasta> --centroids <fasta file with representative centroid seqs written> --id <ID threshold to build clusters> -notrunclengths
+
+#determine clusters and print contents of each cluster to its own fasta
+usearch8.0.1623_i86linux32 -cluster_fast <size sorted input fasta> --msaout <Root name for many fastas written, one for each cluster> --id <ID threshold to build clusters> -notrunclengths
+
