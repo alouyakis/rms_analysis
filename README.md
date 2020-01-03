@@ -5,6 +5,7 @@ Fullmer, M.S., Ouellette, M., Louyakis, A.S., Papke, R.T., and Gogarten, J.P., (
 
 #### rms.RMD:  
 R scripts for heatmap with tree, interactive heatmap, genomes per cHG barplot, rarefaction plot, and correlation plot  
+https://alouyakis.github.io/rms_analysis/
 
 #### input_files:  
 ##### Contains the input files used to make the figures
